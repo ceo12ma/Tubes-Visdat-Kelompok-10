@@ -12,7 +12,7 @@ import numpy as np
 df = pd.read_csv('heart_2020_cleaned.csv')
 
 st.set_page_config(layout="wide")
-st.title("Dashboard Interaktif: Visualisasi Penyakit Jantung 2020")
+st.title("Dashboard Interaktif: Visualisasi  Faktor - Faktor Penyakit Jantung Dari responden tahun 2020")
 
 # --- Sidebar Filters ---
 st.sidebar.header("Filter Interaktif")
