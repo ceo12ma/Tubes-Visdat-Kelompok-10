@@ -1,8 +1,9 @@
-Visualisasi  Faktor - Faktor Penyakit Jantung Dari responden tahun 2020
+**Visualisasi  Faktor - Faktor Penyakit Jantung Dari responden tahun 2020**
 
 Repositori ini berisi sebuah proyek visualisasi data interaktif yang dibangun menggunakan Streamlit dan Bokeh. Visualisasi ini menampilkan berbagai faktor-faktor penyakit jantung berdasarkan dataset yang diberikan.
 
-Fitur Visualisasi
+**Fitur Visualisasi**
+
 1.  Distribusi Status Penyakit Jantung
    
 Mayoritas Non Penderita Jantung survei Behavioral Risk Factor Surveillance System (BRFSS) yang dilakukan oleh CDC (Centers for Disease Control and Prevention) di Amerika Serikat.
@@ -29,27 +30,27 @@ Penderita penyakit jantung (Yes) memiliki rata-rata hari sakit fisik dan mental 
 
 7. Distribusi Jam Tidur Berdasarkan Status Penyakit Jantung
 
-Cara Menjalankan
+**Cara Menjalankan**
 
 
-Pastikan versi Python 3.8 atau versi yang lebih baru terinstal. Untuk memeriksa versi Python, buka terminal atau command prompt dan jalankan:
+**Pastikan versi Python 3.8 atau versi yang lebih baru terinstal. Untuk memeriksa versi Python, buka terminal atau command prompt dan jalankan:**
 ```bash
 python --version
 ```
 
-Buat dan Aktifkan Lingkungan Virtual (Virtual Environment)
+**Buat dan Aktifkan Lingkungan Virtual (Virtual Environment)**
 Untuk Windows:
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
 ```
 
-Instal Dependensi
+**Instal Dependensi**
 ```bash
 pip install -r requirements.txt
 ```
 
-Jalankan Visualisasi Streamlit
+**Jalankan Visualisasi Streamlit**
 ```bash
 streamlit run app.py
 ```
