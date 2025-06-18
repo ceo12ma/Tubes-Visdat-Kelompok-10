@@ -30,6 +30,9 @@ Penderita penyakit jantung (Yes) memiliki rata-rata hari sakit fisik dan mental 
 
 7. Distribusi Jam Tidur Berdasarkan Status Penyakit Jantung
 
+
+   
+
 **Cara Menjalankan**
 
 
