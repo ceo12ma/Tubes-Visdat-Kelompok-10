@@ -30,22 +30,25 @@ Penderita penyakit jantung (Yes) memiliki rata-rata hari sakit fisik dan mental 
 
 Cara Menjalankan
 
-```bash
+
 Pastikan versi Python 3.8 atau versi yang lebih baru terinstal. Untuk memeriksa versi Python, buka terminal atau command prompt dan jalankan:
+```bash
 python --version
 ```
 
-```bash
 Buat dan Aktifkan Lingkungan Virtual (Virtual Environment)
 Untuk Windows:
+```bash
 python -m venv venv
 .\venv\Scripts\activate
 ```
-```bash
+
 Instal Dependensi
+```bash
 pip install -r requirements.txt
 ```
-```bash
+
 Jalankan Visualisasi Streamlit
+```bash
 streamlit run app.py
 ```
