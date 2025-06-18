@@ -260,8 +260,8 @@ else:
     st.info("Tidak ada data yang tersedia untuk filter yang dipilih.")
 
 
-# --- Visualisasi 11: Distribusi Jam Tidur Berdasarkan Status Penyakit Jantung (Histogram Stacked Bokeh) ---
-st.subheader("11. Distribusi Jam Tidur Berdasarkan Status Penyakit Jantung")
+# --- Visualisasi 7: Distribusi Jam Tidur Berdasarkan Status Penyakit Jantung (Histogram Stacked Bokeh) ---
+st.subheader("7. Distribusi Jam Tidur Berdasarkan Status Penyakit Jantung")
 if not filtered_df.empty:
     bins_sleep = range(int(filtered_df['SleepTime'].min()), int(filtered_df['SleepTime'].max()) + 2)  # +2 agar bin terakhir masuk
     
